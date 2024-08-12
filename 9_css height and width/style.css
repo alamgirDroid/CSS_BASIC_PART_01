@@ -1,0 +1,16 @@
+/*CSS height and width Values*/
+div {
+  height: 200px;
+  width: 50%;
+  background-color: powderblue;
+}
+.para{
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+}
+.para1 {
+  max-width: 500px;
+  height: 100px;
+  background-color: powderblue;
+}

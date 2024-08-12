@@ -1,0 +1,27 @@
+/*Padding-Individual Sides*/
+div {
+  border: 1px solid black;
+  background-color: lightblue;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+/*Padding - Shorthand Property*/
+p {
+  border: 1px solid black;
+  padding: 25px 50px 75px 100px;
+  background-color: lightblue;
+}
+/*Padding and Element Width*/
+div.one {
+  width: 300px;
+  background-color: yellow;
+}
+
+div.two {
+  width: 300px;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: lightblue;
+}

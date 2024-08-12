@@ -1,0 +1,32 @@
+/*Text Indentation*/
+p {
+  text-indent: 50px;
+}
+/*Letter Spacing*/
+h2 {
+  letter-spacing: 5px;
+}
+
+h3 {
+  letter-spacing: -2px;
+}
+/*Line Height*/
+p.small {
+  line-height: 0.7;
+}
+
+p.big {
+  line-height: 1.8;
+}
+/*Word Spacing*/
+p.one {
+  word-spacing: 10px;
+}
+
+p.two {
+  word-spacing: -2px;
+}
+/*White space*/
+p {
+  white-space: nowrap;
+}

@@ -1,0 +1,34 @@
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+/*image list*/
+ul.e{
+  list-style-image: url('img-01.jpg');
+}
+/*Position The List Item Markers*/
+ul.f {
+  list-style-position: outside;
+}
+
+ul.g {
+  list-style-position: inside;
+}
+/*Remove Default Settings*/
+ul.demo {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+

@@ -1,0 +1,72 @@
+/*Text Color and Background Color*/
+body {
+  background-color: lightgrey;
+  color: blue;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+}
+
+div {
+  background-color: blue;
+  color: white;
+}
+/*Text Alignment*/
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: left;
+}
+
+h4 {
+  text-align: right;
+}
+/*text-justify*/
+.para {
+  border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  text-align: justify;
+}
+/*Text Align Last*/
+p.a {
+  text-align-last: right;
+}
+
+p.b {
+  text-align-last: center;
+}
+
+p.c {
+  text-align-last: justify;
+}
+/*Text Direction*/
+p.ex1 {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+/*Vertical Alignment*/
+img.a {
+  vertical-align: baseline;
+}
+
+img.b {
+  vertical-align: text-top;
+}
+
+img.c {
+  vertical-align: text-bottom;
+}
+
+img.d {
+  vertical-align: sub;
+}
+
+img.e {
+  vertical-align: super;
+}

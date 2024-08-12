@@ -1,0 +1,29 @@
+/*Individual Sides Margins*/
+div{
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+}
+/*Margin - Shorthand Property*/
+p{
+  border: 1px solid black;
+  margin: 25px 50px 75px 100px;
+  background-color: lightblue;
+}
+/*auto Value*/
+.para {
+  width: 300px;
+  margin: auto;
+  border: 1px solid red;
+}
+/*Margin Collapse \Top and bottom margins of elements are sometimes collapsed into a single margin that is equal to the largest of the two margins.*/
+h1 {
+  margin: 0 0 50px 0;
+}
+
+h2 {
+  margin: 20px 0 0 0;
+}

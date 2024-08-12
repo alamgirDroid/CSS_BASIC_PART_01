@@ -1,0 +1,102 @@
+/*Add a Decoration Line to Text*/
+h1 {
+  text-decoration: overline;
+}
+
+h2 {
+  text-decoration: line-through;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+h4 {
+  text-decoration: overline underline;
+}
+/*Specify a Color for the Decoration Line*/
+h5 {
+  text-decoration-line: overline;
+  text-decoration-color: red;
+}
+/*Specify a Style for the Decoration Line*/
+p.ex1 {
+  text-decoration-line: underline;
+  text-decoration-style: solid; /* this is default */
+}
+
+p.ex2 {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+p.ex3 {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;  
+}
+
+p.ex4 {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;  
+}
+
+p.ex5 {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;  
+}
+
+p.ex6 {
+  text-decoration-line: underline;
+  text-decoration-color: red;  
+  text-decoration-style: wavy;  
+}
+/*Specify the Thickness for the Decoration Line*/
+p.ex7 {
+  text-decoration-line: underline;
+  text-decoration-thickness: auto;  /* this is default */
+}
+
+p.ex8 {
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+}
+
+p.ex9 {
+  text-decoration-line: underline;
+  text-decoration-thickness: 25%;
+}
+
+p.ex10 {
+  text-decoration-line: underline;
+  text-decoration-color: red;  
+  text-decoration-style: double;
+  text-decoration-thickness: 5px;  
+}
+/*The Shorthand Property*/
+p.para1 {
+  text-decoration: underline;
+}
+
+p.para2 {
+  text-decoration: underline red;
+}
+
+p.para3 {
+  text-decoration: underline red double;
+}
+
+p.para4 {
+  text-decoration: underline red double 5px;
+}
+/*Text Transformation*/
+p.uppercase {
+  text-transform: uppercase;
+}
+
+p.lowercase {
+  text-transform: lowercase;
+}
+
+p.capitalize {
+  text-transform: capitalize;
+}

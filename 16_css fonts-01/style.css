@@ -1,0 +1,64 @@
+/*CSS Font Family*/
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+/*Lorem ipsum dolor sit amet*/
+.p4{
+  font-family: Tahoma, sans-serif;
+}
+/*Georgia (serif)*/
+.p5{
+  font-family: Georgia, serif;
+}
+/*Font Style*/
+p.normal {
+  font-style: normal;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+p.oblique {
+  font-style: oblique;
+}
+/*Font Weight*/
+p.normal1 {
+  font-weight: normal;
+}
+
+p.light {
+  font-weight: lighter;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+p.thicker {
+  font-weight: 900;
+}
+/*Font Variant*/
+p.normal2 {
+  font-variant: normal;
+}
+
+p.small {
+  font-variant: small-caps;
+}
+/*For Shorthand*/
+p.a {
+  font: 20px Arial, sans-serif;
+}
+
+p.b {
+  font: italic small-caps bold 12px/30px Georgia, serif;
+}

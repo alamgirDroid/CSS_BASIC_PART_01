@@ -1,0 +1,7 @@
+p{
+  color:green;
+  text-align: center;
+  /*p is a selector in CSS;
+  color is a property, and green is the property value;
+  text-align is a property, and center is the property value;*/
+}

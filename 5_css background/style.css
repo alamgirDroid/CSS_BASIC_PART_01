@@ -1,0 +1,23 @@
+/*----Background color Opacity / Transparency--*/
+div {
+  background-color: red;
+}
+
+div.first {
+  opacity: 0.1;
+}
+
+div.second {
+  opacity: 0.3;
+}
+
+div.third {
+  opacity: 0.6;
+}
+/*background Image*/
+body{
+  background-image: url(./img-01.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}

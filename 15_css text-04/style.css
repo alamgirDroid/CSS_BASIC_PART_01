@@ -1,0 +1,23 @@
+h1 {
+  text-shadow: 2px 2px;
+}
+h2 {
+  text-shadow: 2px 2px red;
+}
+h3 {
+  text-shadow: 2px 2px 5px red;
+}
+#para2 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+#para1 {
+  text-shadow: 0 0 3px #FF0000;
+}
+.para1 {
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.para2 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
