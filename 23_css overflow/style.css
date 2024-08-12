@@ -1,0 +1,41 @@
+/*overflow: visible*/
+div.one {
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid;
+  overflow: visible;
+}
+/*overflow: hidden*/
+div.two {
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+/*overflow: scroll*/
+div {
+  background-color: coral;
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+  overflow: scroll;
+}
+/*overflow: auto*/
+div {
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid black;
+  overflow: auto;
+}
+/*overflow-x and overflow-y*/
+div.five {
+  background-color: coral;
+  width: 200px;
+  height: 65px;
+  border: 1px solid black;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
